@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(-45deg,#22c1c3 , #fdbb2d, #23c3d5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.table {
+    /* fallback for old browsers */
+    background: #94bbe9;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #22c1c3, #fdbb2d);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #22c1c3, #fdbb2d);
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+#a{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 180px;
+}
+
+#b{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 180px;
+}
+
+h1{
+    text-align: center;
+}
+

@@ -1,0 +1,31 @@
+{% extends "basepage.html" %}
+{% block head %}
+ <link rel="stylesheet" href="static/infopage.css"> {% endblock  %}
+{%  block body  %}
+
+<div align="center"><img id="png" src="static/kucukuygun.png" alt="kucukuygun"></div>
+
+<p id="a">Ürünün fiyatı seçtiğiniz fiyat değerine düştüğünde mail aracılığıyla bildirim alacaksınız.</p>
+
+
+<div class="table">
+    <table class="table table-bordered">
+        <tr>
+            <td>Ürün Linki</td>
+            <td>{{ urun_linki }}</td>
+        </tr>
+        <tr>
+            <td>Girdiğiniz Fiyat Değeri</td>
+            <td>{{ urun_fiyat }}</td>
+        </tr>
+        <tr>
+            <td>Bildirim Alacağınız Mail Adresi</td>
+            <td>{{ mail_adresi }}</td>
+        </tr>
+    </table>
+</div>
+
+<p id="b">{{ result }}</p>
+
+
+{%  endblock  %}
