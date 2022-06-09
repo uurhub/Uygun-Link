@@ -1,2 +1,2 @@
 # Uygun-Link
- "Uygun Link" is a graduation project for mt.
+ "Uygun Link" is a graduation project for my university.
